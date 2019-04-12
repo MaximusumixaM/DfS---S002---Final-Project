@@ -1,0 +1,167 @@
+/* Top Comment */
+
+/* Global */
+
+* {
+  	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Futura; src: url ('Futura.ttf');
+}
+
+.hidden {
+	display: none;
+}
+
+.notselected {
+	color: grey;
+	cursor: pointer;
+}
+
+/* Menu */
+
+.menu::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.menuexpose-wrap {
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
+  	font-size: 1.2em;
+  	font-family: Futura;
+}
+
+.menuprojects-wrap {
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
+  	font-size: 1.2em;
+  	font-family: Futura;
+}
+
+.menuabout-wrap {
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
+  	font-size: 1.2em;
+  	font-family: Futura;
+}
+
+.menutextexpose {
+	color: black;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.menutextprojects {
+	color: black;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.menutextabout {
+	color: black;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+/* Expose */
+
+.exposebox {
+	height: 47vw;
+	width: 97vw;
+	margin: 1vw;
+}
+
+.exposecontainer {
+	height: 49vw;
+	width: 99vw;
+	float: left;
+}
+
+.exposeimg {
+	max-width:100%;
+	max-height:100%;
+	float: right;
+	padding-right: 33%;
+}
+
+.bottomtext {
+	font-family: Futura;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+/* Projects */
+
+.projectscontainer {
+	height: 97vw;
+	width: 90vw;
+	float: right;
+}
+
+.projectspage {
+	font-family: Futura;
+	font-size: 2em;
+}
+
+.box {
+	height: 30vw;
+	width: 20vw;
+	float: left;
+	margin: 1vw;
+}
+
+.img {
+	max-width:100%;
+	max-height:100%;
+}
+
+.img:hover {
+	background-color: grey;
+	opacity: 0.5;
+	cursor: pointer;
+	height: 40vw;
+}
+
+/* About */
+
+.aboutcontainer {
+	height: 90vw;
+	width: 90vw;
+	float: right;
+}
+
+.aboutheader {
+	font-family: Futura;
+	font-size: 2em;
+}
+
+.aboutmaintext {
+	font-family: Futura;
+	font-size: 1.4em;
+}
+
+.aboutmainaward {
+	font-family: Futura;
+	font-size: 1.4em;
+}
+
+.aboutpage {
+	font-family: Futura;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.aboutpageaward {
+	font-family: Futura;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+/* ---- END ---- */
